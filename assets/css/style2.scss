@@ -1,0 +1,351 @@
+@import'variables2';
+
+body{
+    margin:0;
+    font-size: 16px;
+}
+
+.text-barre{
+    text-decoration: line-through;
+}
+
+.container-mobile .section1{
+    width: 90%;
+    margin:auto;
+    padding:40px;
+}
+
+header{
+    div{
+        .para{
+            font-size: 0.8em;
+            color:$dark-grey;
+        }
+    }
+}
+
+.flexible-mobile{
+    display:flex;
+}
+
+.voir-prix{
+width: 100%;
+}
+
+.voir-produit{
+width: 100%;
+display: flex;
+align-items: flex-end;
+}
+
+.text-red{
+    color: $red;
+}
+
+.slogan{
+    margin:1%;
+    font-weight: bold;
+}
+
+.text-blue{
+    color:$light-blue;
+    text-align: center;
+    font-size:1.3em;
+}
+
+.text-grey{
+    color:$dark-grey;
+}
+
+.text-right{
+    text-align: right;
+    font-style: justify;
+}
+
+.cum{
+    display: block;
+}
+
+.text-white {
+    color: $white;
+    font-size: 1.6em;
+    font-style: center;
+}
+
+.section1{
+    font: size 1.9em;
+    text-align: center;
+}
+
+.section-espace {
+    padding-bottom: 16%;
+}
+
+h2{
+    font-weight: lighter;
+}
+
+.prix{
+    width: 100%;
+    font-size: 1.8em;
+}
+
+.icon{
+    width: 40px;
+}
+
+.icones{
+    width: 44px;
+    margin:17px;
+    text-align: center;
+}
+
+.logo2{
+    align-items: right;
+}
+
+.fond-gris{
+    background-color:$light-gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer para,a{
+    color:$grey;
+}
+
+.fin{
+    background-color:$light-gray;
+    text-align: center;
+}
+
+.btn1{
+    text-decoration: none;
+    text-align: center;
+    background-color: $light-blue;
+    color: white;
+    padding: 6% 15%;
+    border-radius: 15px;
+    width: 110px;
+    font-size:1rem;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: $light-blue;
+    color: white;
+    padding:2% 15%;
+    border-radius: 15px;
+    width: 40px;
+    font-size:1.2rem;
+}
+
+.container-mobile{
+    width: 90%;
+    margin:auto;
+}
+
+.conseil{
+    color:$green;
+    text-align: center;
+}
+
+.trucs{
+    color:$red;
+    text-align: center;
+}
+
+.ico{
+    text-align:center;
+}
+
+.suivre{
+    color:$red;
+    font-weight: bold;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.section2{
+    text-align: center;
+    font-size: 1.9em;
+  }
+
+#logo, #tondeuse, #carte{
+    width: 100%;
+    margin: auto;
+}
+
+#prix-barre{
+    color: $first-grey;
+    margin:0;
+    font-size: 2.4rem;
+}
+
+#nv{
+    font-size: 3rem;
+    margin:0;
+    font-weight: bold;
+}
+
+@media screen and (min-width : 1024px) {
+
+    .voir-produit{
+        display: block;
+        text-align: right;
+    }
+    
+    .flexible-mobile {
+        display: block;
+    }
+
+    .container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    header div .para {
+        font-size: 0.6em;
+    }
+
+    .header-left{
+        width:40% ;
+    }
+
+    .header-center{
+        width:40%;
+    }
+
+    .header-right{
+        width: 20%;
+        // z-index: 1;
+        // position: relative;
+        display:flex;
+        flex-direction:column-reverse;
+        margin-right: 20px;
+    }
+
+    .news{
+        position: relative;
+        z-index: 1;
+        padding-left:25%;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .text-blue-1{
+        color:$light-blue;
+    }
+
+    .text-blue{
+        color: #94c11f;
+        font-size: 1.3em;
+        text-align: left;  
+        z-index: 1; /*1er plan*/
+        position: relative;
+     }
+
+    .text-right{
+        text-align: center;
+        font-size: 1.8em;
+        margin:0;
+    }
+    
+    .prix{
+        text-align: right;
+    }
+
+    .fond-gris{
+        display:flex;
+    }
+
+    .profit{
+        text-align:center;
+    }
+
+    .btn1 {
+        padding: 2% 10%;
+    }
+
+    .fond-gris, .section-espace{
+        display: flex;
+        width: 100%;
+        height: 50px;
+    }  
+
+    .traits{
+        z-index:0;
+        position: relative;
+        width: 40px;
+        margin-right: 30%;
+    }
+   
+    .text-white{
+       font-size: 1.8rem;
+       margin-bottom: 15px;
+    }
+
+    .container-mobile{
+        width: unset;
+        font-size: 1.8em;
+    }
+
+    .video{
+        margin:140px;
+        width: 80%;
+        padding-top: 5px;
+        padding-bottom:5px;
+    }
+
+    .bas{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .fin{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .garden{
+        text-align:right;
+    }
+
+   .suivre{
+       text-align: left;
+   }
+
+    .icones{
+        justify-content: space-between;
+    }
+
+    .section1 {
+        display: flex;
+    }
+
+    #carte {
+        display: flex;
+        width: 70%;
+        margin: 20px;
+        }
+
+        #logo{
+            width: 30%;
+            margin-left: 35%;
+        }
+    
+        #carte{
+            width: 70%;
+        }
+    
+        #tondeuse{
+            width: 80%;
+            margin-left:15%;
+            z-index: 0; /*second plan*/
+            position: relative;
+        }
+    
+}

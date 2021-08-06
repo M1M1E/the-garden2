@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+.text-barre {
+  text-decoration: line-through;
+}
+
+.container-mobile {
+  width: 90%;
+  margin: auto;
+}
+
+
+header div .p {
+  font-size: 0.8em;
+  color: #a9a9a9;
+}
+
+.flexible-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.voir-prix {
+  width: 100%;
+}
+
+.voir-produit {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.text-red {
+  color: #f31e1e;
+}
+
+.slogan {
+  margin: 1%;
+  font-weight: bold;
+}
+
+
+.text-blue {
+  color: #2fd1b8;
+}
+
+.text-grey {
+  color: #a9a9a9;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: white;
+}
+
+.section1 {
+  font: size 1.9em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.prix {
+  width: 100%;
+  font-size: 1.8em;
+}
+
+.icones {
+  width: 50px;
+}
+
+.fond-gris {
+  background-color: #e2e2e2;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #2fd1b8;
+  color: white;
+  padding: 4% 15%;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+
+.section2{
+  text-align: center;
+  font-size: 1.9em;
+}
+#logo, #tondeuse, #carte {
+  width: 100%;
+  margin: auto;
+}
+
+#prix-barre {
+  margin: 0;
+  font-size: 2rem;
+}
+
+#nv {
+  font-size: 2.5em;
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
